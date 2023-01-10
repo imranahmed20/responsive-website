@@ -1,0 +1,27 @@
+/* body style */
+body{
+    margin: 0 auto;
+}
+
+/* header and navber style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: antiquewhite;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+nav a{
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 30px;
+    font-weight: 400;
+
+}
+ a:hover{
+    background-color: orange;
+    padding:  5px;
+    
+
+}
