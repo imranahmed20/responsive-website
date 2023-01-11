@@ -40,12 +40,23 @@ header {
 .btn-red {
     background-color: rgb(253, 123, 17);
     padding: 10px 20px;
-    font-size: 25px;
+    font-size: 15px;
     font-weight: 700px;
     border: 0;
     border-radius: 8px;
     color: #FFFFFF;
     margin-bottom: 100px;
+
+}
+.btn-primary{
+    background-color: rgb(253, 123, 17);
+    padding: 5px 10px;
+    font-size: 18px;
+    font-weight: 500px;
+    border: 0;
+    border-radius: 8px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
 
 }
 
@@ -126,7 +137,35 @@ a:hover {
     color: #444343;
 }
 
+/* Product container */
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
 
+.food{
+    border: 1px solid #444343;
+    border-radius: 8px;
+
+}
+.food img{
+    width: 75%;
+}
+.footer-description{
+    padding: 20px;
+}
+.food-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+
+}
+.food-detail{
+    font-weight: 400;
+    font-size: 20px;
+    color: #444343;
+}
 
 
 
