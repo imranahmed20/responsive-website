@@ -1,6 +1,7 @@
 /* body style */
 body {
     margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -23,7 +24,7 @@ header {
 }
 
 .banner-title {
-    font-size: 68px;
+    font-size: 58px;
     font-weight: 700px;
     color: #FFFFFF;
 }
@@ -39,9 +40,9 @@ header {
 /* button style */
 .btn-red {
     background-color: rgb(253, 123, 17);
-    padding: 10px 20px;
-    font-size: 15px;
-    font-weight: 700px;
+    padding: 8px 15px;
+    font-size: 25px;
+    font-weight: 500px;
     border: 0;
     border-radius: 8px;
     color: #FFFFFF;
@@ -81,7 +82,7 @@ nav a {
 
 a:hover {
     background-color: orange;
-    padding: 0px;
+    padding: 3px;
 
 }
 
@@ -136,12 +137,21 @@ a:hover {
     font-size: 20px;
     color: #444343;
 }
+/* product-header style */
+.product-header{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+
+}
 
 /* Product container */
 .container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+    padding: 20px 80px;
 }
 
 .food{
@@ -166,10 +176,126 @@ a:hover {
     font-size: 20px;
     color: #444343;
 }
+/* overflow style */
+.overflow{
+    /* border: 1px solid red; */
+    padding: 20px 130px;
+    height: 200px;
+    overflow: scroll;
+    overflow-x: hidden;
+
+}
+.overflow-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+}
 
 
+/* Cricket ball and bat style */
 
+.fileds{
+    padding: 20px 130px;
+    margin-bottom: 90px;
+    margin-top: 250px;
+   
+    
 
+}
+.filed {
+    border: 0px solid rebeccapurple;
+    padding: 10px 40px;
+    background-image: url('../images/field.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 90px;
+
+}
+
+.filed:hover .bat {
+    transform: rotate(-20deg);
+    transform-origin: top right;
+   
+
+}
+.filed img{
+    width: 50%;
+}
+
+.bat {
+    transition: transform 0.2s ease-in;
+}
+
+.filed:hover .balls {
+    transform: translate(900px, -80px);
+}
+
+.balls {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 25px;
+    position: relative;
+    left: 220px;
+ 
+    transition: transform 1s ease-out 0.2s;
+}
+
+/* ball running style */
+@keyframes sliding {
+    0%{
+        background-color: limegreen;
+        left: 0;
+        top: 0;
+        transform: scale(1);
+
+       
+
+    }
+    25%{
+        top: 325px;
+        background-color: yellow;
+        transform: scale(0.5);
+
+    }
+    50%{
+        top: 0;
+        background-color: red;
+        transform: scale(1);
+
+        
+
+    }
+    75%{
+        top: 325px;
+        background-color: blue;
+        transform: scale(0.6);
+    }
+    100%{
+        background-color: magenta;
+        left: 860px;
+        top: 0;
+    }
+}
+.stage{
+    width: 960px;
+    height: 400px;
+    background-image: url('../images/im2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px 130px;
+
+}
+.ball{
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+    border-radius: 50px;
+    animation: sliding 2s ease-in-out 0.5s infinite alternate ;
+    animation-play-state: running;
+    position: relative;
+    
+}
 
 
 
