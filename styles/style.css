@@ -1,30 +1,34 @@
 /* body style */
-body{
+body {
     margin: 0 auto;
 }
 
 
 /* header style */
-header{
+header {
     background-image: url('../images/Home2.jpeg'), url('../images/gradient1.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: multiply;
 }
+
 /* banner style */
-.banner{
-   
+.banner {
+
     text-align: center;
     padding: 20px 300px;
     margin-top: 80px;
-    
+    margin-bottom: 100px;
+
 }
-.banner-title{
+
+.banner-title {
     font-size: 68px;
     font-weight: 700px;
     color: #FFFFFF;
 }
-.banner-detail{
+
+.banner-detail {
     font-size: 22px;
     font-weight: 500px;
     color: #FFFFFF;
@@ -33,7 +37,7 @@ header{
 }
 
 /* button style */
-.btn-red{
+.btn-red {
     background-color: rgb(253, 123, 17);
     padding: 10px 20px;
     font-size: 25px;
@@ -44,9 +48,10 @@ header{
     margin-bottom: 100px;
 
 }
+
 /* Navber style */
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -54,16 +59,136 @@ nav{
     background-color: antiquewhite;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-nav a{
+
+nav a {
     text-decoration: none;
     margin-right: 30px;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 400;
 
 }
- a:hover{
-    background-color: orange;
-    padding:  5px;
-    
 
+a:hover {
+    background-color: orange;
+    padding: 0px;
+
+}
+
+/* about style */
+.about {
+    text-align: center;
+    padding: 20px 200px;
+    margin-bottom: 100px;
+}
+
+.about-title {
+    font-size: 48px;
+    font-weight: 700px;
+
+}
+
+.about-detail {
+    font-size: 22px;
+    font-weight: 500px;
+    color: #757575;
+
+}
+
+/* benefit style */
+.benefit {
+    display: flex;
+    align-items: center;
+    padding: 20px 150px;
+    margin-bottom: 100px;
+}
+
+.benefit-image {
+    width: 50%;
+    margin-right: 70px;
+
+}
+
+.benefit-text {
+    width: 50%;
+    margin-top: 30px;
+
+}
+
+.benefit-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+
+.benefit-detail {
+    font-weight: 400;
+    font-size: 20px;
+    color: #444343;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer style */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #151414;
+}
+
+.footer-text {
+    color: #FFFFFF;
+    padding: 30px 100px;
+    width: 50%;
+
+}
+
+.footer-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+    
+}
+
+.footer-detail {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.footer-image img{
+    padding-right: 10px;
+    margin-top: 20px;
+}
+.footer-subscript{
+    font-weight: 700;
+    font-size: 35px;
+    color: #F8F8F8;
+    margin-top: 50px;
+
+}
+input{
+    padding: 10px 40px;
+    font-weight: 400;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-bottom: 10px;
 }
