@@ -3,7 +3,49 @@ body{
     margin: 0 auto;
 }
 
-/* header and navber style */
+
+/* header style */
+header{
+    background-image: url('../images/Home2.jpeg'), url('../images/gradient1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+/* banner style */
+.banner{
+   
+    text-align: center;
+    padding: 20px 300px;
+    margin-top: 80px;
+    
+}
+.banner-title{
+    font-size: 68px;
+    font-weight: 700px;
+    color: #FFFFFF;
+}
+.banner-detail{
+    font-size: 22px;
+    font-weight: 500px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+
+}
+
+/* button style */
+.btn-red{
+    background-color: rgb(253, 123, 17);
+    padding: 10px 20px;
+    font-size: 25px;
+    font-weight: 700px;
+    border: 0;
+    border-radius: 8px;
+    color: #FFFFFF;
+    margin-bottom: 100px;
+
+}
+/* Navber style */
+
 nav{
     display: flex;
     justify-content: space-between;
